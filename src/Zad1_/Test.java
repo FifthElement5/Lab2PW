@@ -3,13 +3,13 @@ package Zad1_;
 public class Test {
     public static void main(String[] args) {
         System.out.println("poczatke progarmu");
-        Watek w1 = new Watek();
-        Watek w2 = new Watek();
-        Watek w3 = new Watek();
+        Watek2 w1 = new Watek2();
+        Watek2 w2 = new Watek2();
+        Watek2 w3 = new Watek2();
 
-        w1.setName("Watek.1");
-        w2.setName("main [*** Watek 2]");
-        w3.setName("main [###Watek 3]");
+        w1.setName("Watek.1 ");
+        w2.setName("main [*** Watek.2 ]");
+        w3.setName("main [###Watek.3 ]");
 
         //dzialanie programu nigdy nie jest takie samo. Powod: brak synchronizacji,
         //zarzadzam=nie przez JVM, OS; rozne zasoby systemowe
