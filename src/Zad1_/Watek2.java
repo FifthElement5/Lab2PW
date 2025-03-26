@@ -7,6 +7,8 @@ public class Watek2 extends Thread {
             for(int i = 0; i < 10; i++) {
                 try {
                     Thread.sleep(500);
+                     /*dodanie opoznina powoduje opoznienie watku 1, dla kazdej jego iteracji,
+                         program drukuje kazda iteracje watku na ekranie z takim opznieniem */
                 } catch (InterruptedException e) {
                     throw new RuntimeException(e);
                 }

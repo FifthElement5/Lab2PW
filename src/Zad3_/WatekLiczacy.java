@@ -14,7 +14,14 @@ public class WatekLiczacy extends Thread {
 
     public void run() {
         int wynik = 0;
+        // w petli wielokrotnie wywolujemy metode policzMnie
+        // jezeli wynik metody jest rozny od zera - przerywamy dzialanie petli
         for (int i = 0; i < count; i++) {
+            wynik = licznikWatkow.policzMnie();
+            if (wynik != 0) break;
         }
+
+        // pokazujemy wartosc zmiennej wynik na wyjsciu z metody run()
+        System.out.println(Thread.currentThread().getName() + " konczy z wynikiem " + wynik);
     }
 }
