@@ -10,7 +10,7 @@ public class Test {
         Thread t2 = new Thread(w2);
         Thread t3 = new Thread(w3);
 
-        t1.setName("Watek_1");
+        t1.setName("Watek.1");
         t2.setName("***Watek_2");
         t3.setName("## Watek_3");
 
