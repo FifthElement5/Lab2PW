@@ -2,6 +2,7 @@ package Zad1_;
 
 public class Test {
     public static void main(String[] args) {
+        System.out.println("poczatke progarmu");
         Watek w1 = new Watek();
         Watek w2 = new Watek();
         Watek w3 = new Watek();

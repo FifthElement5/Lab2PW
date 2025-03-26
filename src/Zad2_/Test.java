@@ -14,8 +14,15 @@ public class Test {
         t2.setName("***Watek_2");
         t3.setName("## Watek_3");
 
+        //dzialanie programu nigdy nie jest takie samo. Powod: brak synchronizacji,
+        //zarzadzam=nie przez JVM, OS; rozne zasoby systemowe
+
         t1.start();
         t2.start();
         t3.start();
+
+        System.out.println("Koniec programu");
+        // "Koniec programu" drukuje się na początku, ponieważ główny wątek (main) nie czeka na zakończenie wątków,
+        //tylko przechodzi do następnej linii od razu po uruchomieniu ich.
     }
 }
