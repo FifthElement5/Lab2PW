@@ -9,7 +9,7 @@ public class Watek extends Thread {
             try {
                 if(Thread.currentThread().getName().contains("Watek.1")) {
 
-                        Thread.sleep(500);
+                        Thread.sleep(1000);
                         /*dodanie opoznina powoduje opoznienie watku 1, dla kazdej jego iteracji,
                          program drukuje kazda iteracje watku na ekranie z takim opznieniem */
                 }

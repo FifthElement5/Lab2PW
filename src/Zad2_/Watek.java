@@ -8,8 +8,8 @@ public class Watek implements Runnable {
             System.out.println(Thread.currentThread().getName()+ " " +i);
 
             try {
-                if(Thread.currentThread().getName().contains("Watek_1")) {
-                    Thread.sleep(500);
+                if(Thread.currentThread().getName().contains("Watek_1") && i >= 0) {
+                    Thread.sleep(2000);
                 }
 
             } catch (InterruptedException e) {
