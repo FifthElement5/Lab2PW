@@ -6,7 +6,7 @@ public class Test {
         Watek w2 = new Watek();
         Watek w3 = new Watek();
 
-        w1.setName("main [---Watek.1]");
+        w1.setName("Watek.1");
         w2.setName("main [*** Watek 2]");
         w3.setName("main [###Watek 3]");
 
