@@ -3,11 +3,11 @@ package Zad3_; // Określenie pakietu, w którym znajduje się klasa
 public class TestWatkow {
     public static void main(String[] args) {
         // Pobranie liczby wątków z argumentów wejściowych
-//        int tnum = Integer.parseInt(args[0]); // liczba wątków
-//        int count = Integer.parseInt(args[1]); // liczba powtórzeń pętli w run()
+        int tnum = Integer.parseInt(args[0]); // liczba wątków
+        int count = Integer.parseInt(args[1]); // liczba powtórzeń pętli w run()
 
-        int tnum = 8; // liczba wątków
-        int count = 20; // liczba powtórzeń pętli w run()
+//        int tnum = 8; // liczba wątków
+//        int count = 20; // liczba powtórzeń pętli w run()
 
         // Tworzymy obiekt klasy LicznikWatkow (który prawdopodobnie przechowuje stan licznika)
         LicznikWatkow licznik = new LicznikWatkow();
